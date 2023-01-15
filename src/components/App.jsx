@@ -1,16 +1,11 @@
+import { Profile } from './Profile/Profile';
+import user from '../data/user.json';
+console.log(user.location);
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Profile />
     </div>
   );
 };
