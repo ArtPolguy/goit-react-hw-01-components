@@ -1,11 +1,15 @@
 import FriendListItem from 'components/FriendListItem/FriendListItem';
 
 const FriendList = ({ friends }) => {
-  console.log(friends);
   return (
     <ul className="friend-list">
       {friends.map(({ avatar, name, isOnline, id }) => (
-        <FriendListItem avatar={avatar} name={name} isOnline={isOnline} />
+        <FriendListItem
+          key={id}
+          avatar={avatar}
+          name={name}
+          isOnline={isOnline}
+        />
       ))}
     </ul>
   );
