@@ -13,22 +13,22 @@ const Profile = ({
       <div className={css.descr}>
         <img src={avatar} alt="User avatar" className={css.avatar} />
         <p className={css.username}>{username}</p>
-        <p className={css.tag}>{tag}</p>
+        <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
 
       <ul className={css.stats}>
-        <li>
-          <span className={css.followersLabel}>Followers</span>
-          <span className={css.followersQuant}>{followers}</span>
+        <li className={css.listItem}>
+          <span className={css.label}>Followers</span>
+          <span className={css.quant}>{followers}</span>
         </li>
-        <li>
-          <span className={css.viewsLabel}>Views</span>
-          <span className={css.viewsQuant}>{views}</span>
+        <li className={css.listItem}>
+          <span className={css.label}>Views</span>
+          <span className={css.quant}>{views}</span>
         </li>
-        <li>
-          <span className={css.likesLabel}>Likes</span>
-          <span className={css.likesQuant}>{likes}</span>
+        <li className={css.listItem}>
+          <span className={css.label}>Likes</span>
+          <span className={css.quant}>{likes}</span>
         </li>
       </ul>
     </div>
