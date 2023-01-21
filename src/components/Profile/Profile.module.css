@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+.profile {
+  background-color: #e7ecf2;
+}
+.descr {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
+.stats {
+  background-color: #f3f6f9;
+  composes: descr;
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  background-color: #91725c;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+}
