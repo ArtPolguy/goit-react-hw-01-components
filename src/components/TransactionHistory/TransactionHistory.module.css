@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 20px;
+}
+tbody {
+  color: #9fa2a5;
+}
+th,
+td {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+  text-align: center;
+}
+thead {
+  height: 70px;
+  background-color: #00bcd5;
+  color: #fff;
+  text-transform: uppercase;
+}
+.changeTrColor {
+  background-color: #ecf1f4;
+}
+.container {
+  padding: 40px;
+}
