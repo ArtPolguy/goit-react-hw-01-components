@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ArtPolguy/goit-react-hw-01-components/static/css/main.e856d9e7.css",
-    "main.js": "/ArtPolguy/goit-react-hw-01-components/static/js/main.9855ab9a.js",
+    "main.css": "/ArtPolguy/goit-react-hw-01-components/static/css/main.3a2ead81.css",
+    "main.js": "/ArtPolguy/goit-react-hw-01-components/static/js/main.d40f3a77.js",
     "index.html": "/ArtPolguy/goit-react-hw-01-components/index.html",
-    "main.e856d9e7.css.map": "/ArtPolguy/goit-react-hw-01-components/static/css/main.e856d9e7.css.map",
-    "main.9855ab9a.js.map": "/ArtPolguy/goit-react-hw-01-components/static/js/main.9855ab9a.js.map"
+    "main.3a2ead81.css.map": "/ArtPolguy/goit-react-hw-01-components/static/css/main.3a2ead81.css.map",
+    "main.d40f3a77.js.map": "/ArtPolguy/goit-react-hw-01-components/static/js/main.d40f3a77.js.map"
   },
   "entrypoints": [
-    "static/css/main.e856d9e7.css",
-    "static/js/main.9855ab9a.js"
+    "static/css/main.3a2ead81.css",
+    "static/js/main.d40f3a77.js"
   ]
 }
